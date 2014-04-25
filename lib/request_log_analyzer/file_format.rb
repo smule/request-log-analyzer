@@ -16,6 +16,7 @@ module RequestLogAnalyzer::FileFormat
   autoload :W3c,              'request_log_analyzer/file_format/w3c'
   autoload :Haproxy,          'request_log_analyzer/file_format/haproxy'
   autoload :HaproxySmule,     'request_log_analyzer/file_format/haproxy_smule'
+  autoload :SmuleRails3,      'request_log_analyzer/file_format/smule_rails3'
 
   # Loads a FileFormat::Base subclass instance.
   # You can provide:
